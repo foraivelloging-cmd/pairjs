@@ -879,7 +879,7 @@ END:VCARD`
       inviteCode: 'ABCD1234',
       groupName: 'Saqib Channel',
       caption: 'Saqib Smart Project',
-      jpegThumbnail: 'https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg'
+      jpegThumbnail: 'https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg'
     }
   }
 };
@@ -1276,7 +1276,7 @@ const captionText = 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ᴍᴜʜᴀᴍᴍᴀᴅ s�
 const footerText = 'sᴀǫɪʙ ᴍᴅ ᴍɪɴɪ';
 
 const buttonMessage = {
-    image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+    image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
     caption: captionText,
     footer: footerText,
     buttons,
@@ -2173,7 +2173,7 @@ case 'npmsearch': {
 
         // Send with thumbnail
         try {
-            const thumb = await axios.get('https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg', { responseType: 'arraybuffer' });
+            const thumb = await axios.get('https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg', { responseType: 'arraybuffer' });
 
             await socket.sendMessage(sender, {
                 text: message,
@@ -2830,7 +2830,7 @@ case 'help': {
         menuMessage += `Type ${config.PREFIX} followed by any command to use it`;
 
         await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: menuMessage
         }, { quoted: msg });
 
@@ -2955,7 +2955,7 @@ case 'downloadmenu': {
     await socket.sendMessage(from, { react: { text: '📥', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '📥 DOWNLOAD MENU',
             `
@@ -2983,7 +2983,7 @@ case 'search': {
     await socket.sendMessage(from, { react: { text: '🔍', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🔍 SEARCH MENU',
             `
@@ -3014,7 +3014,7 @@ case 'aimenuu': {
     await socket.sendMessage(from, { react: { text: '🤖', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🤖 AI MENU',
             `
@@ -3040,7 +3040,7 @@ case 'tools': {
     await socket.sendMessage(from, { react: { text: '🛠️', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🛠️ TOOLS MENU',
             `
@@ -3080,7 +3080,7 @@ case 'ownercommands': {
     await socket.sendMessage(from, { react: { text: '👑', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '👑 OWNER MENU',
             `
@@ -3344,7 +3344,7 @@ case 'help': {
         menuMessage += `Type ${config.PREFIX} followed by any command to use it`;
 
         await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: menuMessage
         }, { quoted: msg });
 
@@ -3466,7 +3466,7 @@ case 'menu': {
         ],
 
         headerType: 1,
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
 
         caption: formatMessage(
             '🎀 MUHAMMAD SAQIB 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 🎀',
@@ -3545,7 +3545,7 @@ case 'alive': {
         ],
         headerType: 1,
         viewOnce: true,
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: `© 💙 Powered By Team Bandaheali ❤️ッ\n\n${captionText}`,
     }, { quoted: msg });
     break;
@@ -3557,7 +3557,7 @@ case 'groupmenu': {
     await socket.sendMessage(from, { react: { text: '👥', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '👥 GROUP MENU',
             `
@@ -3597,7 +3597,7 @@ case 'dlmenu': {
     await socket.sendMessage(from, { react: { text: '📥', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '📥 DOWNLOAD MENU',
             `
@@ -3620,7 +3620,7 @@ case 'searchmenu': {
     await socket.sendMessage(from, { react: { text: '🔍', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🔍 SEARCH MENU',
             `
@@ -3641,7 +3641,7 @@ case 'aimenu': {
     await socket.sendMessage(from, { react: { text: '🤖', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🤖 AI MENU',
             `
@@ -3663,7 +3663,7 @@ case 'toolsmenu': {
     await socket.sendMessage(from, { react: { text: '🛠️', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🛠️ TOOLS MENU',
             `
@@ -3686,7 +3686,7 @@ case 'ownermenu': {
     await socket.sendMessage(from, { react: { text: '👑', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '👑 OWNER MENU',
             `
@@ -3714,7 +3714,7 @@ case 'mainmenu': {
     await socket.sendMessage(from, { react: { text: '🏠', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🏠 MAIN MENU',
             `
@@ -3741,7 +3741,7 @@ case 'games': {
     await socket.sendMessage(from, { react: { text: '🎮', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🎮 GAMES & FUN MENU',
             `
@@ -4986,7 +4986,7 @@ case 'alive': {
         ],
         headerType: 1,
         viewOnce: true,
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: `© 💙 Powered By Team Bandaheali ❤️ッ\n\n${captionText}`,
     }, { quoted: msg });
     break;
@@ -4998,7 +4998,7 @@ case 'groupmenu': {
     await socket.sendMessage(from, { react: { text: '👥', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '👥 GROUP MENU',
             `
@@ -5037,7 +5037,7 @@ case 'dlmenu': {
     await socket.sendMessage(from, { react: { text: '📥', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '📥 DOWNLOAD MENU',
             `
@@ -5059,7 +5059,7 @@ case 'searchmenu': {
     await socket.sendMessage(from, { react: { text: '🔍', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🔍 SEARCH MENU',
             `
@@ -5080,7 +5080,7 @@ case 'aimenu': {
     await socket.sendMessage(from, { react: { text: '🤖', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🤖 AI MENU',
             `
@@ -5102,7 +5102,7 @@ case 'toolsmenu': {
     await socket.sendMessage(from, { react: { text: '🛠️', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🛠️ TOOLS MENU',
             `
@@ -5125,7 +5125,7 @@ case 'ownermenu': {
     await socket.sendMessage(from, { react: { text: '👑', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '👑 OWNER MENU',
             `
@@ -5153,7 +5153,7 @@ case 'mainmenu': {
     await socket.sendMessage(from, { react: { text: '🏠', key: msg.key } });
 
     await socket.sendMessage(from, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🏠 MAIN MENU',
             `
@@ -5232,7 +5232,7 @@ case 'botinfo': {
     const ramTotal = Math.round(memoryUsage.heapTotal / 1024 / 1024);
 
     await socket.sendMessage(sender, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🤖 BOT INFORMATION',
             `*╭─「 TEAM-MUHAMMAD SAQIB MINI BOT 」*
@@ -5270,7 +5270,7 @@ case 'contact': {
     await socket.sendMessage(sender, { react: { text: '🆘', key: msg.key } });
 
     await socket.sendMessage(sender, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '🆘 SUPPORT & HELP',
             `*╭─「 NEED HELP? 」*
@@ -5323,11 +5323,11 @@ case 'updates': {
     await socket.sendMessage(sender, { react: { text: '📢', key: msg.key } });
 
     await socket.sendMessage(sender, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '📢 OFFICIAL CHANNEL',
             `*╭─「 STAY UPDATED 」*
-*│* 🎯 *Channel Name:* MUHAMMAD SAQIB Updates
+*│* 🎯 *Channel Name:* SAQIB Updates
 *│* 📢 *Purpose:* Official announcements
 *│* 🚀 *Content:* 
 *│*   • Bot updates
@@ -5385,7 +5385,7 @@ X-ABLabel:GitHub
 END:VCARD`;
 
     await socket.sendMessage(sender, {
-        image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+        image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
         caption: formatMessage(
             '👑 BOT OWNER',
             `*╭─「 DEVELOPER INFORMATION 」*
@@ -5533,7 +5533,7 @@ case 'pair': {
 
     if (!number) {
         return await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: `*📱 MUHAMMAD SAQIB BOT PAIRING SYSTEM*\n\n` +
                      `❌ *Missing Phone Number*\n\n` +
                      `📌 *Usage:* .pair +263719647303\n` +
@@ -5547,7 +5547,7 @@ case 'pair': {
     // Validate phone number format
     if (!number.match(/^\+?[1-9]\d{1,14}$/)) {
         return await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: `*📱 MUHAMMAD SAQIB BOT PAIRING SYSTEM*\n\n` +
                      `❌ *Invalid Phone Number Format*\n\n` +
                      `📞 *Number Received:* ${number}\n` +
@@ -5562,7 +5562,7 @@ case 'pair': {
     try {
         // Send processing message with image
         await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: `*📱 MUHAMMAD SAQIB BOT PAIRING SYSTEM*\n\n` +
                      `⏳ *Processing Request:*\n\n` +
                      `📞 *Number:* ${number}\n` +
@@ -5601,7 +5601,7 @@ case 'pair': {
 
         // Send instructions in a separate message with image
         await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: `*📱 MUHAMMAD SAQIB BOT PAIRING SYSTEM*\n\n` +
                      `✅ *PAIRING CODE GENERATED!*\n\n` +
                      `📞 *Number:* ${number}\n` +
@@ -5623,7 +5623,7 @@ case 'pair': {
     } catch (err) {
         console.error("❌ Pair Command Error:", err);
         await socket.sendMessage(sender, {
-            image: { url: "https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg" },
+            image: { url: "https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg" },
             caption: `*📱 MUHAMMAD SAQIB BOT PAIRING SYSTEM*\n\n` +
                      `❌ *CONNECTION ERROR*\n\n` +
                      `📞 *Number:* ${number}\n` +
@@ -5700,7 +5700,7 @@ const buttonMessage = {
     headerType: 1,
     viewOnce: true,
     caption: '❏ *LOGO MAKER*',
-    image: { url: 'https://ik.imagekit.io/shaban/SHABAN-1768573425069_nIPVZQOaT.jpg' },
+    image: { url: 'https://bandaheali-cdn.koyeb.app/bandaheali/profile.jpg' },
 };
 
 await socket.sendMessage(from, buttonMessage, { quoted: msg });
